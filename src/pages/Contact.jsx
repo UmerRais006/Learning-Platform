@@ -5,7 +5,7 @@ function Contact()
 
 
         <div>
-            <h1>contact page</h1>
+            <h1>contact pagess</h1>
         </div>
     )
 }
