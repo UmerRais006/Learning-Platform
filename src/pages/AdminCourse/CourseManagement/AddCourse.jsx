@@ -106,7 +106,7 @@ function AddCourse() {
     >
 
 
-      <h1 className="text-4xl font-bold drop-shadow-lg">Course Management</h1>
+      <h1 className="text-4xl font-bold drop-shadow-lg ">Course Management</h1>
 
       <div className="bg-white/10 backdrop-blur-xl rounded-2xl shadow-lg p-8 w-full max-w-md mt-10">
         <p className="text-xl font-bold mb-5">Add Course</p>

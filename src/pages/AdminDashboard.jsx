@@ -1,6 +1,6 @@
 import React from "react";
 import { BookOpenText, Users, LayoutDashboard } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link,Outlet } from "react-router-dom";
 import bgImage from "../assets/HomePageBg.jpg";
 
 function AdminSide() {
@@ -44,7 +44,7 @@ function AdminSide() {
       </nav>
 
       <div className="flex-1 p-10 text-yellow-200">
-       
+       <Outlet/>
       </div>
     </div>
   );
