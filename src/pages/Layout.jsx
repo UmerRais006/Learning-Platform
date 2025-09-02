@@ -14,6 +14,8 @@ function Layout() {
         backgroundPosition: "center top",
       }}
     >
+
+        
       <nav className="w-64 h-screen bg-gradient-to-b from-darkblue via-green-900 to-cyan-800 text-white font-poppins shadow-2xl text-yellow-200">
         <h2 className="text-2xl font-bold text-center py-6 border-b border-green-400">
           Admin Panel

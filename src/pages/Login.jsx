@@ -41,7 +41,6 @@ const LoginSignupPage = () => {
         return;
       }
 
-      // confirm password check
       if (formData.password !== formData.confirmPassword) {
         alert("Passwords do not match!");
         return;
