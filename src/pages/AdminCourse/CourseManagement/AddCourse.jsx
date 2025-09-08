@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-
-
 function ImageConverter({ onImageConverted }) {
   const handleFileChange = (e) => {
     const file = e.target.files[0];
@@ -102,10 +100,7 @@ function AddCourse() {
   };
 
   return (
-    <div
-    >
-
-
+    <div>
       <h1 className="text-4xl font-bold drop-shadow-lg ">Course Management</h1>
 
       <div className="bg-white/10 backdrop-blur-xl rounded-2xl shadow-lg p-8 w-full max-w-md mt-10">

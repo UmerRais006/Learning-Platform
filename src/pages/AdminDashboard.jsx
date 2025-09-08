@@ -8,7 +8,7 @@ function AdminSide() {
     
     <div
 
-      className="flex animate-moveUpDown"
+      className="flex animate-moveUpDown h-full w-full"
       style={{
         backgroundImage: `url(${bgImage})`,
         backgroundSize: "cover",

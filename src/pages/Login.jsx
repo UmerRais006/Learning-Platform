@@ -73,7 +73,7 @@ const LoginSignupPage = () => {
       if (user) {
         if (user.role == "student") {
           alert(`Login successful as Student`);
-          navigate("/Home");
+          navigate("/");
         } else {
           alert(`Login successful as Admin`);
          navigate("/admin")
