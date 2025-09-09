@@ -34,7 +34,7 @@ function Course() {
             </p>
             <div className="mt-4 flex justify-end">
               <button className="px-4 py-2 bg-gradient-to-r from-green-400 to-cyan-600 rounded-full text-white font-semibold shadow-md hover:shadow-xl hover:scale-105 transition">
-                Learn
+                Learn course
               </button>
             </div>
           </li>
