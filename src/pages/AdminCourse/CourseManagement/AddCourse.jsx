@@ -36,6 +36,7 @@ function ImageConverter({ onImageConverted }) {
       />
     </div>
   );
+  
 }
 
 function AddCourse() {
