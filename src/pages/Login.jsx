@@ -47,8 +47,16 @@ const LoginSignupPage = () => {
       }
       if (formData.role === "admin") {
         const adminExists = existingUsers.some((u) => u.role === "admin");
-        if (adminExists) {
-          alert("An Admin already exists. Only one admin allowed!");
+        const superAdminExists = existingUsers.some((u) => u.role === "superAdmin");
+        if (!superAdminExists) {
+          formData.role="superAdmin";
+          return;
+        }
+        if(superAdminExists)
+        {
+          
+          formData.role="admin";
+
           return;
         }
       }
